@@ -1,0 +1,14 @@
+.active {
+    transition: all 1000ms ease-in-out;
+    color: #ffae00 !important;
+}
+
+.start {
+    transition: all 600ms ease-in-out;
+    transform: translateX(0%) scaleY(1.5);
+}
+
+.end {
+    transition: all 600ms ease-in-out;
+    transform: translateX(100%) scaleY(1.5);
+}
